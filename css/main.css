@@ -98,6 +98,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   .content-wrapper {
+    width: 90%;
+    margin: 50px 0;
+  }
+
 /*----------------- Base Header - Footer Styles --------------------------*/
 
 header,
@@ -113,6 +118,7 @@ header .content-wrapper {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
 }
 
 header .content-wrapper p {
@@ -131,6 +137,11 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 50%;
+}
+
+
+footer {
+  flex-direction: column;
 }
 
 footer .content-wrapper {
@@ -152,6 +163,15 @@ footer .social-icons p {
 }
 
 
+footer .copyright {
+  margin: 20px 0;
+}
+
+footer .contact {
+  margin-bottom: 50px;
+}
+
+
 /*----------- Header Styles --------------*/
 
 header {
@@ -165,17 +185,14 @@ header figure {
 
 .header-divider {
   width: 100%;
+  height: 1px;
+  margin: 10px 0 20px 0;
 }
 
 
 
 /*------------ Mobile Styles - Homepage ------------*/
 
-
-.content-wrapper {
-  width: 100%;
-  margin: 20px; 
-}
 /*------Hero Area Styles -------*/ 
 
 .hero-area {
@@ -227,9 +244,13 @@ p {
   flex-flow: row wrap;
 }
 
+.features h2 {
+  margin-bottom: 60px;
+}
+
 .features article {
-  width: 65%;
-  margin: 48px 0; 
+  width: 63%;
+  margin: 30px 0;
 }
 
 .features p {
@@ -244,8 +265,13 @@ p {
   flex-flow: row wrap;
 }
 
+.reviews h2 {
+  margin-bottom: 40px;
+}
+
 .reviews h3 {
-  width: 50%; 
+  width: 55%; 
+  margin: 20px 0; 
 }
 
 .reviews p {
@@ -261,30 +287,26 @@ p {
 
 
 address  {
-  text-align: center; 
+ 
 }
+
+
 
 footer p {
   margin: 0; 
 }
 
 .contact h3 {
-  margin: 50px 0 23px;
-  text-align: center; 
+
 }
 
 footer .social {
-  margin: 50px 0 23px;
-  text-align: center; 
 }
 
 .contact p {
 
 }
 
-.copyright {
-  padding-top: 50px; 
-}
 
 .copyright p {
 
@@ -307,6 +329,10 @@ footer .social {
     align-items: center;
     flex-flow: row wrap;
   }
+
+  .contact-content p {
+    margin: 0;
+  }
   
   /* ==========================================================================
      FAQ Page
@@ -320,12 +346,20 @@ footer .social {
   }
   
   .faq .content-wrapper {
+    margin: 50px 0 0 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
   }
 
+  .faq h2 {
+    margin-bottom: 40px;
+  }
+  
+  .faq-content {
+    margin-bottom: 50px;
+  }
 /* ==========================================================================
    Helper classes
    ========================================================================== */
