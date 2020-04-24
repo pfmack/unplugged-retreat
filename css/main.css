@@ -101,6 +101,7 @@
 
 html {
   font-size: 16px; 
+  color: #e2e3ed;
 }
 
 body {
@@ -134,6 +135,7 @@ h4 {
 
 p {
   line-height: 1.5em;
+  color: #e2e3ed;
 }
 
 img {
@@ -164,6 +166,7 @@ address {
   
   header {
     padding: 15px 0;
+    background-color: #202322;
   }
   
   header .content-wrapper {
@@ -196,6 +199,8 @@ address {
   
   footer {
     flex-direction: column;
+    background-color: #202322;
+  
   }
   
   footer p {
@@ -209,12 +214,18 @@ address {
   
   footer .contact {
     margin-bottom: 50px;
+    text-align: center; 
+  }
+
+  footer .social {
+    text-align: center;
   }
   
   footer .social-icons {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
   }
   
   footer .social-icons p {
@@ -244,6 +255,8 @@ address {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    background-color: #527158;
+    color: white;
   }
   
   /* Features */
@@ -277,6 +290,8 @@ address {
   /* Reviews */
   
   .reviews {
+    background-color: #2a423a;
+    color: white; 
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -291,6 +306,34 @@ address {
     margin: 20px 0;
   }
   
+  /*Form Styles*/
+
+  aside .form {
+    margin-top: 30px;
+  }
+
+  input[type=text] {
+    box-sizing: border-box;
+    width: 100%;
+    color: #2a423a;
+    font-style: italic;
+    padding: 1em;
+  }
+
+  input[type=button] {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 20px;
+    background-color: #2a423a;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.125em;
+    color: #e2e3ed;
+    border: none;
+    text-align: center; 
+    text-transform: uppercase; 
+     }
+
   /* ==========================================================================
      About Page
      ========================================================================== */
