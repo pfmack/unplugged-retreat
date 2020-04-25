@@ -139,11 +139,11 @@ p {
 }
 
 img {
-
+  width: 100%;
 }
 
 figure {
-
+  margin: 0; 
 }
 
 address {
@@ -167,6 +167,14 @@ address {
   header {
     padding: 15px 0;
     background-color: #202322;
+  }
+
+  header figure {
+    width: 60%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-flow: row wrap;
   }
   
   header .content-wrapper {
@@ -243,6 +251,8 @@ address {
   /* Hero Area */
   
   .hero-area {
+    background: url('../img/jake-melara-30679-unsplash.jpg') center no-repeat #333; 
+    background-size: cover;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -262,6 +272,8 @@ address {
   /* Features */
   
   .features {
+    background: url('../img/rawpixel-800820-unsplash1.jpg') center no-repeat #333; 
+    background-size: cover;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
