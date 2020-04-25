@@ -317,6 +317,7 @@ address {
     width: 55%;
     margin: 20px 0;
   }
+
   
   /*Form Styles*/
 
@@ -351,6 +352,7 @@ address {
      ========================================================================== */
   
   .mission {
+    background-color: #527158;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -358,6 +360,7 @@ address {
   }
   
   .contact-section {
+    background-color: #2a423a;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -547,6 +550,7 @@ address {
       /* Reviews */
       .reviews article {
         display: flex;
+        flex-flow: row wrap;
         justify-content: space-between;
       }
     
