@@ -189,6 +189,7 @@ address {
     width: 100%;
     height: 1px;
     margin: 10px 0 20px 0;
+    border-top: solid #3a3a3a; 
   }
   
   header nav {
@@ -258,6 +259,12 @@ address {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+  }
+
+  .hero-area .content-wrapper {
+    margin-top: 0;
+    margin-left: 20px; 
+    padding: 0 150px 200px 10px;  
   }
   
   /* Aside */
@@ -528,6 +535,10 @@ address {
         justify-content: space-around;
         padding: 33px 0;
       }
+
+      header figure {
+        width: 30%;
+      }
     
       header .content-wrapper {
         width: 100%;
@@ -535,7 +546,7 @@ address {
       }
     
       header nav {
-        width: 20%;
+        width: 25%;
       }
     
       header nav ul {
@@ -577,12 +588,16 @@ address {
       /* Reviews */
       .reviews article {
         display: flex;
-        flex-flow: row wrap;
         justify-content: space-between;
+        flex-flow: row wrap; 
       }
     
       .reviews article div {
-        width: 49%;
+        width: 55%;
+      }
+
+      .reviews figure {
+        width: 40%; 
       }
     
       /* Footer */
@@ -603,6 +618,15 @@ address {
     
       footer .copyright {
         width: 100%;
+      }
+    
+      footer .social-icons { 
+        margin-bottom: 0;
+        
+      }
+
+      footer i {
+        padding: 0 25px 0 40px;  
       }
     
       /* ==========================================================================
@@ -654,6 +678,10 @@ address {
     @media only screen and (min-width: 1200px) {
       /*Desktop Styles Here*/
 
+      header figure {
+        width: 20%;
+      }
+
       .content-wrapper {
         max-width: 960px;
       }
@@ -661,6 +689,11 @@ address {
       /*Hero Area*/
       .hero-area h1 {
         width: 60%;
+      }
+
+      .hero-area .content-wrapper {
+        margin: 0 0 250px 150px;
+        padding-bottom: 300px;
       }
 
       /*Aside*/
@@ -686,7 +719,21 @@ address {
       .reviews article div {
         width: 42%;
       }
-    
+   
+      .copyright {
+        text-align: center; 
+      }
+
+      footer .social-icons { 
+        margin-bottom: 0;
+        
+      }
+
+      footer i {
+        padding: 0 25px 0 40px;  
+      }
+
+   
 
     /* ==========================================================================
     About Page
