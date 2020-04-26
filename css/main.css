@@ -374,7 +374,7 @@ address {
   .map figure {
     width: 100%;
     height: 0;
-    padding-bottom: 80%;
+    padding-bottom: 56.25%;
     overflow: hidden;
     position: relative;
   }
@@ -598,6 +598,9 @@ address {
       /* ==========================================================================
        About Page
        ========================================================================== */
+       .map figure {
+        padding-bottom: 45.5%;
+      }
     
       .mission-content {
         display: flex;
@@ -678,6 +681,10 @@ address {
     /* ==========================================================================
     About Page
      ========================================================================== */
+
+     .map figure {
+      padding-bottom: 37.5%;
+    }
 
     .mission h2,
     .contact-section .content-wrapper h2 {
