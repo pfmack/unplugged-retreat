@@ -376,6 +376,7 @@ address {
      ========================================================================== */
   
   .faq {
+    background-color: #527158;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -607,7 +608,7 @@ address {
        FAQ Page
        ========================================================================== */
     
-      .faq .content-wrapper {
+     .faq .content-wrapper {
         justify-content: space-between;
       }
     
