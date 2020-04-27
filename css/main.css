@@ -121,10 +121,6 @@ a {
   text-decoration: none; 
 }
 
-h1 {
-  font-size: 3em;
-}
-
 h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 2em;
@@ -202,6 +198,7 @@ address {
     align-items: center;
     flex-flow: row wrap;
     width: 60%;
+    padding-right: 50px;
   }
   
   header nav ul {
@@ -268,7 +265,7 @@ address {
   .hero-area .content-wrapper {
     margin-top: 0;
     margin-left: 20px; 
-    padding: 0 150px 200px 10px;  
+    padding: 0 50px 150px 10px;  
   }
   
   /* Aside */
@@ -529,6 +526,11 @@ address {
       /*Tablet styles here*/
     
       /* General styles */
+
+      h1 {
+        font-size: 3em;
+      }
+
       .content-wrapper {
         max-width: 640px;
         margin: 100px 0;
@@ -550,8 +552,8 @@ address {
       }
     
       header nav {
-        width: 30%;
-        margin-left: 200px; 
+        width: 38%;
+        margin-left: 145px; 
       }
     
       header nav ul {
@@ -691,6 +693,10 @@ address {
 
     @media only screen and (min-width: 1200px) {
       /*Desktop Styles Here*/
+
+      h1 {
+        font-size: 3em;
+      }
 
       header figure {
         width: 20%;
